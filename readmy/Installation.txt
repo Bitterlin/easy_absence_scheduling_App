@@ -1,0 +1,74 @@
+
+
+##################################################
+# Was macht die App?                             #
+##################################################
+
+
+
+Mit dieser App, kannst du ganz einfach deine Abwesenden (kranken, verunfallten, usw) -Mitarbeiter verwalten. 
+
+Mittels Status, wird dir angezeigt ob sich Heute ein Mitarbeiter melden muss (Meldepflicht). 
+
+Direkte Vorgesetzte werden bei jeder Mutation per Mail orientiert.
+
+Betreuungsgespräche durch Vorgesetzte können dokumentiert werden.
+
+Unter: funktionen/send_mail.py
+
+... kannst du die example@mail.com adressen mit deinen erchten Verteiler adressen ergänzen, dies muss an drei stellen erledigt werden (du wirst es sehen, das Programm ist ja keine Raketenwissenschaft). 
+
+Unter: datafiles/gruppenleiter.py 
+
+... kannst du deine eigenen Vorgesetzten eintragen
+
+___________________________________________________
+
+
+1)
+
+SETUP_PIP_install_Modules.py 
+(im Hauptordner zu finden), 
+kontrolliert ob die nötigen Module installiert sind 
+(ob sie importiert werden können) und installiert gegebenfalls fehlende Module über PIP nach 
+(Muss also nur einmal ausgeführt werden, danach kann das file gelöscht werden)
+
+
+2)
+
+Mit start.py kann das Programm gestartet werden. 
+
+
+3)
+
+*** User: anubis / Password: 111 ***
+
+Unter: datenbank/secure.db 
+
+...können weitere User angelegt werden,
+Berechtigung 1 kann nicht in die Betreuung rein gehen und kann keine Fälle löschen, Bechtigung 9 kann alles) 
+
+
+_______________________________________________________
+
+
+Wurde unter Linux Parrot Securitiy OS für Windows programmiert
+Mit Linux Parrot kann man die SQLite db ohne Probleme erreichen und neue User anlegen, das nur by the Way.  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
