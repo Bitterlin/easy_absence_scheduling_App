@@ -1,9 +1,9 @@
 # easy_absence_scheduling_App
-This little Python app enables small businesses to manage sick and absent employees.  It is one of my first projects and I look forward to professionals who can give feedback.  No consideration was given to security and encryption in the project and is only used as a training project.
+This little Python app enables small businesses to manage sick and absent employees.<br>It is one of my first projects and I look forward to professionals who can give feedback.<br>No consideration was given to security and encryption in the project and is only used as a training project.
 
-Made for: Windows
-Programming language: Python
-GUI: tkinter
-
-Attention:
-Gui written in German.
+Made for: Windows<br>
+Programming language: Python<br>
+GUI: tkinter<br>
+<br><br>
+Attention:<br>
+Gui written in German.<br>
